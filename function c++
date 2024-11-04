@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+//function declartion 
+void halloween(); 
+
+int main() {
+	halloween(); //function call
+
+}
+//function definition
+void halloween() {
+	int num; //sets up a variable
+	cout << "how was your halloween (1-10)" << endl;
+	cin >> num; //store user input in varible
+	if (num < 5)
+		cout << "sorry it wasn't great :(" << endl;
+	else if (num > 5)
+		cout << "I'm glad it was good!" << endl; 
